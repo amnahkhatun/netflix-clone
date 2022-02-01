@@ -3,8 +3,16 @@
   top: 0;
   display: flex;
   width: 100%;
-  padding: 20px;
-  justify-content: space-between
+  padding: 30px;
+  justify-content: space-between;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black{
+  background-color: #111
 }
 
 .nav__logo{
@@ -12,6 +20,7 @@
   object-fit: contain;
   position: fixed;
   left: 20px;
+  top:15px;
 }
 
 .nav__avatar{
@@ -19,5 +28,5 @@
   object-fit: contain;
   position: fixed;
   right: 20px;
-
+top:15px;
 }
